@@ -2,18 +2,25 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	
 }
 
 :root {
 	--rojo: #ba181b;
 	--azul: #00b4d8;
+	--violeta: rgb(70, 9, 136);
 	--azul-hover: #48cae4;
+	--lila-hover:rgb(155, 103, 210);
 	--rojo-hover: #e5383b;
 	--verde: #09a129;
+	--naranja: rgb(255, 64, 0);
+	--naranja-hover: rgb(255, 174, 0);
+	--gris:rgb(133, 131, 131);
+
 }
 
 body {
-	font-family: Poppins;
+	font-family: 'Ubuntu', sans-serif;
 	max-width: 1200px;
 	margin: 40px auto;
 	display: flex;
@@ -42,7 +49,7 @@ h1 {
 }
 
 .counter-todos span {
-	color: #f29559;
+	color: #4d2fe6;
 	font-weight: 700;
 	font-size: 24px;
 	margin-left: 10px;
@@ -81,9 +88,8 @@ ul li form {
 	font-weight: 500;
 	font-family: inherit;
 	font-size: 18px;
-	color: #555;
+	color: var(--gris);
 	width: 100%;
-	/* background-color: #000; */
 	outline: none;
 }
 
@@ -99,6 +105,7 @@ ul li form {
 .container-done.active {
 	background-color: var(--verde);
 }
+
 
 .text-decoration-dashed {
 	text-decoration: line-through;
@@ -123,7 +130,7 @@ ul li form {
 }
 
 .btn-edit {
-	background-color: var(--azul);
+	background-color: var(--violeta);
 	color: #fff;
 	padding: 15px;
 	display: flex;
@@ -137,7 +144,7 @@ ul li form {
 }
 
 .btn-edit:hover {
-	background-color: var(--azul-hover);
+	background-color: var(--lila-hover);
 }
 
 form {
@@ -165,15 +172,15 @@ form {
 
 .btn-add {
 	border: none;
-	background-color: var(--azul);
+	background-color: var(--naranja);
 	color: #fff;
 	padding: 5px 40px;
-	border-radius: 20px;
+	border-radius: 15px;
 	font-family: inherit;
 	cursor: pointer;
 	font-size: 17px;
 }
 
 .btn-add:hover {
-	background-color: var(--azul-hover);
+	background-color: var(--naranja-hover);
 }
