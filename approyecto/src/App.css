@@ -38,6 +38,9 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+}
 .counter-todos {
 	margin: 40px 0;
 	display: flex;

@@ -34,7 +34,7 @@ function Welcome()  {
                     todos={todos}
                     handleUpdateTodo = {handleUpdateTodo}
                     handleDeleteTodo = {handleDeleteTodo}
-                   handleCompleteTodo = {handleCompleteTodo}
+                    handleCompleteTodo = {handleCompleteTodo}
                 />
             </div>
         </>
